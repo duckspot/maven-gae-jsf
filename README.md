@@ -1,7 +1,7 @@
 App Engine Java Application
 Copyright (C) 2010-2012 Google Inc.
 
-## Skeleton application for use with App Engine Java.
+## Skeleton application for use with App Engine Java and JavaServer Faces 2.0
 
 Requires [Apache Maven](http://maven.apache.org) 3.0 or greater, and JDK 6+ in order to run.
 
