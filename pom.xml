@@ -35,11 +35,13 @@
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
+        <!-- this is for JSP pages - if we have none - we don't need it
         <dependency>
             <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
+        -->
 
         <!-- Test Dependencies -->
         <dependency>
