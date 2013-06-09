@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+    <name>maven-gae-jsf</name>
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <groupId>org.softwarehelps</groupId>
-    <artifactId>gae-jsf</artifactId>
+    <artifactId>maven-gae-jsf</artifactId>
 
     <properties>
         <appengine.app.version>1</appengine.app.version>
-        <appengine.target.version>1.7.5</appengine.target.version>
+        <appengine.target.version>1.8.0</appengine.target.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -21,6 +22,12 @@
             <artifactId>appengine-api-1.0-sdk</artifactId>
             <version>${appengine.target.version}</version>
         </dependency>
+        <!-- load JavaServer Faces -->
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.faces</artifactId>
+            <version>2.1.22</version>
+        </dependency> 
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
