@@ -10,6 +10,7 @@
     <artifactId>maven-gae-jsf</artifactId>
 
     <properties>
+        <appengine.app.name>maven-gae-jsf</appengine.app.name>
         <appengine.app.version>1</appengine.app.version>
         <appengine.target.version>1.8.0</appengine.target.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
